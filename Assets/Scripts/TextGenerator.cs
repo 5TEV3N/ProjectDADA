@@ -1,16 +1,26 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
-public class TextGenerator : MonoBehaviour {
+public class TextGenerator : MonoBehaviour
+{
+    
+    public Text title;
+    public Text date;
+    public Text medium;
+    public Text dimension;
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+    public string[] titleBank;
+    public string[] dateBank;
+    public string[] mediumBank;
+    public string[] dimensionBank;
+
+    public void Start()
+    {
+
+
+
+    }
+
 }
